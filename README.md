@@ -1,8 +1,8 @@
-# Exp-11 Implement Elliptic Curve Cryptography (ECC)
-# AIM:
+# Implement Elliptic Curve Cryptography (ECC)
+## AIM:
 To implement the Elliptic Curve Cryptography (ECC) key exchange algorithm and securely derive a shared secret key.
 
-# DESIGN STEPS:
+## DESIGN STEPS:
 Step 1:
 Choose a large prime number p and an elliptic curve defined by the equation 𝑦^2 = 𝑥^3 + 𝑎𝑥 +𝑏 mod p along with a base point G on the curve.
 
@@ -21,7 +21,7 @@ Step 5:
 Compute the shared secret
 
 shared_secret = private_key * public_key_received.
-# PROGRAM:
+## PROGRAM:
 ```
 #include <stdio.h>
 
@@ -125,7 +125,7 @@ int main() {
     return 0;
 }
 ```
-# OUTPUT:
+## OUTPUT:
 ![Screenshot 2024-10-17 081042](https://github.com/user-attachments/assets/d1576cd1-d4df-4561-996c-dc7a2918719e)
-# RESULT:
+## RESULT:
 The program for Elliptic Curve Cryptography (ECC) was executed successfully, and both Alice and Bob computed the same shared secret.
